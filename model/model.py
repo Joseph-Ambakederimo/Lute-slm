@@ -37,7 +37,7 @@ class VoxModel(nn.Module):
         self.pos_emb = nn.Embedding(config.max_seq_len, config.d_model) 
         
         # 3. Stacked Transformer Blocks
-        self.layers = nn.ModuleList([QwenBlock(config) for _ in range(config.n_layers)])
+        self.layers = nn.ModuleList([VoxBlock(config) for _ in range(config.n_layers)])
         
         # 4. Final Normalization Layer
         self.norm = RMSNorm(config.d_model, config.rms_norm_eps)
