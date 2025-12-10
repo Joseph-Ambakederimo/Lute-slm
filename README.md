@@ -1,10 +1,10 @@
-🗣️ vox-slm: A Small Language Model Framework (Version 0)
+🗣️ lute-slm: A Small Language Model Framework (Version 0)
 
-Welcome to vox-slm, a project dedicated to building and understanding Small Language Models (SLMs) from the ground up using PyTorch. This framework is currently in Version 0, which serves as a robust Proof-of-Concept for the core Transformer architecture and the training pipeline.
+Welcome to lute-slm, a project dedicated to building and understanding Small Language Models (SLMs) from the ground up using PyTorch. This framework is currently in Version 0, which serves as a robust Proof-of-Concept for the core Transformer architecture and the training pipeline.
 
 🌟 Project Description (Version 0)
 
-vox-slm V0 implements a foundational decoder-only Transformer model, inspired by modern architectures like Qwen and Llama. It uses key techniques such as Multi-Head Attention, RMS Normalization, and the SiLU activation function.
+lute-slm V0 implements a foundational decoder-only Transformer model, inspired by modern architectures like Qwen and Llama. It uses key techniques such as Multi-Head Attention, RMS Normalization, and the SiLU activation function.
 
 The primary goal of Version 0 is to provide a clear, readable, and functional foundation for:
 
@@ -18,7 +18,7 @@ Inference: Enabling basic text generation (sampling).
 
 🛠️ Installation and Dependencies
 
-To run vox-slm, you will need Python 3.8+ and the libraries listed in requirements.txt.
+To run lute-slm, you will need Python 3.8+ and the libraries listed in requirements.txt.
 
 1. Clone the Repository
 
@@ -138,7 +138,7 @@ Open a Pull Request against the main branch, explaining your changes and the pro
 
 The project is modularized for clarity and maintainability:
 
-vox-slm/
+lute-slm/
 │
 ├── data/                       # Training data and saved model checkpoints
 │   ├── local_texts/            # Your raw .txt files go here
